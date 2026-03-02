@@ -1,0 +1,118 @@
+/* src/Login.css */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.github-btn {
+  background-color: #333;
+  color: white;
+}
+
+.google-btn:hover {
+  background-color: #c1351b;
+}
+
+.github-btn:hover {
+  background-color: #222;
+}
+
+.email-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.email-btn:hover {
+  background-color: #0056b3;
+}
+
+/* CEO & About Section */
+.about-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 14px;
+  color: #1a712d;
+}
+
+.ceo-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #ddd;
+}
+
+/* Corporate Info */
+.corporate-info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.corporate-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.corporate-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.corporate-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.corporate-info a:hover {
+  text-decoration: underline;
+}
