@@ -169,7 +169,7 @@ p {
 .scrolling-text {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll 10s linear infinite;
+  animation: scroll 30s linear infinite;
   font-size: 18px;
   font-weight: bold;
   color: #333;
