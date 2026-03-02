@@ -61,7 +61,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h2>Login to Gyanm-The DeepAI</h2>
+      <h2>Login to AI-HUB Multi Domain</h2>
 
       {/* Error Message Display */}
       {error && <p className="error">{error}</p>}
@@ -99,7 +99,7 @@ const Login = () => {
         <h3>Suraj Pandey</h3>
         <p>Developer | CEO | Founder</p>
         <p>
-        Gyanm-The DeepAI is an advanced AI platform that enhances productivity 
+        AI-HUB Multi Domain is an advanced AI platform that enhances productivity 
           and simplifies daily tasks with cutting-edge AI models.
         </p>
       </div>

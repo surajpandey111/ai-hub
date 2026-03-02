@@ -38,7 +38,7 @@ const Home = () => {
     <div className={`home-container ${showAI ? "full-screen" : ""}`}>
       {!showAI ? (
         <>
-          <h1>🚀 Welcome to Gyanm-The DeepAI! 🤖</h1>
+          <h1>🚀 Welcome to AI-HUB Multi Domain! 🤖</h1>
 
           {/* Scrolling Notification Bar */}
           <div className="scrolling-text-container">
@@ -67,10 +67,10 @@ const Home = () => {
             </p>
           </div>
           <div className="ai-description">
-            <h2>Gyanm-The DeepAI</h2>
+            <h2>AI-HUB Multi Domain</h2>
             <p>🚀 India’s First AI Platform – Built for Innovation and Productivity 🇮🇳</p>
             <p>
-            Gyanm-The DeepAI is India’s first homegrown AI platform, designed to bring
+            AI-HUB Multi Domain is India’s first homegrown AI platform, designed to bring
               the power of artificial intelligence to everyday tasks. It provides a seamless
               experience in both text and image generation, enabling users to boost
               productivity, enhance creativity, and simplify work through cutting-edge AI
@@ -155,7 +155,7 @@ const Home = () => {
 
           {/* Footer */}
           <div className="footer">
-            <p>© {new Date().getFullYear()} Gyanm-The DeepAI. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} AI-HUB Multi Domain. All Rights Reserved.</p>
           </div>
         </>
             ) : (
@@ -167,7 +167,7 @@ const Home = () => {
                 {showAI && (
                   <iframe
                     src="https://web-app-ai-1.onrender.com/"
-                    title="Gyanm-The DeepAI"
+                    title="AI-HUB Multi Domain"
                     className="full-screen-iframe"
                   ></iframe>
                 )}
